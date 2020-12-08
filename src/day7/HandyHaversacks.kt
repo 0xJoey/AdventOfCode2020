@@ -37,9 +37,8 @@ private fun parseBagLine(input: String): Pair<String, HashMap<String, Int>> {
 private fun findContaining(target: String, bags: HashMap<String, HashMap<String, Int>>): Set<String> {
     return bags
         .filter {(_, containing) -> containing.contains(target) }
-        .map {(bag, _) ->
+        .flatMap {(bag, _) ->
             hashSetOf(bag).union(findContaining(bag, bags))
         }
-        .flatten()
         .toSet()
 }

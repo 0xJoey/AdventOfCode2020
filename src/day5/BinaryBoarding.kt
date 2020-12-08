@@ -1,7 +1,6 @@
 package day5
 
 import java.io.File
-import java.util.*
 
 fun main() {
     println(File("./src/day5/in.txt")

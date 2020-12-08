@@ -2,7 +2,6 @@ package day6
 
 import java.io.File
 import java.util.*
-import kotlin.collections.HashSet
 
 fun main() {
     println(Scanner(File("./src/day6/in.txt"))
