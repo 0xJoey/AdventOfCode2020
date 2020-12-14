@@ -1,21 +1,12 @@
 package day2
 
-fun main() {
-    var lineIn: String?
+import readFromFile
 
-    var verified = 0;
-
-    while(true) {
-        lineIn = readLine()
-        if(lineIn.isNullOrEmpty()) {
-            break
-        } else {
-            if(verify(lineIn))
-                verified++
-        }
-    }
-
-    println(verified);
+fun day2b(): String {
+    return readFromFile("day2")
+        .filter(::verify)
+        .count()
+        .toString()
 }
 
 private fun verify(input: String): Boolean {

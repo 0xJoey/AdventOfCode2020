@@ -1,26 +1,12 @@
 package day1
 
-import java.util.*
+import readFromFile
 import kotlin.system.exitProcess
 
-fun main() {
-    val numberQueue = PriorityQueue<Int>()
-
-    var lineIn: String?
-    while(true) {
-        lineIn = readLine()
-        if(lineIn.isNullOrEmpty()) {
-            break
-        } else {
-            numberQueue.add(lineIn.toInt())
-        }
-    }
-
-    var sortedNumbers = ArrayList<Int>();
-
-    while(!numberQueue.isEmpty()) {
-        sortedNumbers.add(numberQueue.remove())
-    }
+fun day1b(): String {
+    val sortedNumbers = readFromFile("day1")
+        .map(String::toInt)
+        .sorted()
 
     var a: Int
     var b: Int
@@ -37,13 +23,12 @@ fun main() {
             i++
             c = 2020-a-b
             if(sortedNumbers.contains(c)) {
-                println(a * b * c)
-                exitProcess(0)
+                return (a * b * c).toString()
             }
         }
         end--
         if(end == 0) {
-            exitProcess(1)
+            return "error"
         }
     }
 }

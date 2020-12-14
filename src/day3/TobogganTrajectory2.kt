@@ -1,18 +1,9 @@
 package day3
 
-fun main() {
-    var lineIn: String?
+import readFromFile
 
-    val map = ArrayList<String>()
-
-    while(true) {
-        lineIn = readLine()
-        if(lineIn.isNullOrEmpty()) {
-            break
-        } else {
-            map.add(lineIn)
-        }
-    }
+fun day3b(): String {
+    val map = readFromFile("day3")
 
     val slopes = ArrayList<Pair<Int,Int>>()
     slopes.add(Pair(1,1))
@@ -21,7 +12,7 @@ fun main() {
     slopes.add(Pair(7,1))
     slopes.add(Pair(1,2))
 
-    println(slopes.map { calcTrees(map, it) }.reduce{it, acc -> (it*acc)})
+    return slopes.map { calcTrees(map, it) }.reduce{it, acc -> (it*acc)}.toString()
 }
 
 fun calcTrees(map: List<String>, slope: Pair<Int,Int>): Long {

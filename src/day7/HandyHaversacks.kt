@@ -1,20 +1,17 @@
 package day7
 
-import java.io.File
+import readFromFile
 import java.util.*
 import kotlin.collections.HashMap
 
 private val allBags = HashMap<String, HashMap<String, Int>>()
 
-fun main() {
-    Scanner(File("./src/day7/in.txt"))
-        .useDelimiter("\n")
-        .asSequence()
-        .map(String::trim)
+fun day7a(): String {
+    readFromFile("day7")
         .map(::parseBagLine)
         .forEach { allBags[it.first] = it.second }
 
-    println(findContaining("shiny gold", allBags).size)
+    return findContaining("shiny gold", allBags).size.toString()
 }
 
 private fun parseBagLine(input: String): Pair<String, HashMap<String, Int>> {

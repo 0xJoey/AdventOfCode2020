@@ -1,13 +1,10 @@
 package day8
 
-import java.io.File
+import readFromFile
 import java.util.*
 
-fun main() {
-    val program = Scanner(File("./src/day8/in.txt"))
-        .useDelimiter("\n")
-        .asSequence()
-        .map(String::trim)
+fun day8a(): String {
+    val program = readFromFile("day8")
         .map {
             it.split(" ")
         }
@@ -16,18 +13,17 @@ fun main() {
         }
         .toList()
 
-    runProgram(program)
+    return runProgram(program)
 }
 
-private fun runProgram(program: List<Pair<String,Int>>) {
+private fun runProgram(program: List<Pair<String,Int>>): String {
     val prevInstr = HashSet<Int>()
     var acc = 0
     var pc = 0
 
     while(pc != program.size) {
         if(prevInstr.contains(pc)) {
-            println(acc)
-            return
+            return acc.toString()
         }
         when(program[pc].first) {
             "nop" -> {
@@ -43,4 +39,5 @@ private fun runProgram(program: List<Pair<String,Int>>) {
         prevInstr.add(pc)
         pc++
     }
+    return "error"
 }

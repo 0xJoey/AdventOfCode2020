@@ -1,13 +1,10 @@
 package day8
 
-import java.io.File
+import readFromFile
 import java.util.*
 
-fun main() {
-    val program = Scanner(File("./src/day8/in.txt"))
-        .useDelimiter("\n")
-        .asSequence()
-        .map(String::trim)
+fun day8b(): String {
+    val program = readFromFile("day8")
         .map {
             it.split(" ")
         }
@@ -20,8 +17,7 @@ fun main() {
     while(true) {
         val ret = runProgram(program, i)
         if(ret.first == 0) {
-            println(ret.second)
-            System.exit(0)
+            return ret.second.toString()
         }
         i++
     }

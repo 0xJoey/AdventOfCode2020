@@ -1,12 +1,12 @@
 package day5
 
-import java.io.File
+import readFromFile
 
-fun main() {
-    println(File("./src/day5/in.txt")
-        .readLines()
+fun day5a(): String {
+    return readFromFile("day5")
         .map{calcId(it)}
-        .max())
+        .max()
+        .toString()
 }
 
 private fun calcId(str: String): Int {
@@ -19,7 +19,6 @@ private fun calcId(str: String): Int {
 
 private fun strToBin(str: String, symbols: Pair<Char,Char>): Int {
     var value = 0
-    println(str)
     for(char in str.toCharArray()) {
         value = value.shl(1)
         if(char == symbols.second) {

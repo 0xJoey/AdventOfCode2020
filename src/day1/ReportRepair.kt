@@ -1,31 +1,16 @@
 package day1
 
+import readFromFile
 import java.util.*
 import kotlin.system.exitProcess
 
-fun main() {
-    var lineIn: String?
-
-    val numberQueue = PriorityQueue<Int>()
-
-    while(true) {
-        lineIn = readLine()
-        if(lineIn.isNullOrEmpty()) {
-            break
-        } else {
-            numberQueue.add(lineIn.toInt())
-        }
-    }
-
-    var sortedNumbers = ArrayList<Int>();
-
-    while(!numberQueue.isEmpty()) {
-        sortedNumbers.add(numberQueue.remove())
-    }
+fun day1a(): String {
+    val sortedNumbers = readFromFile("day1")
+        .map(String::toInt)
+        .sorted()
 
     var a: Int
     var b: Int
-    var c: Int
     var max: Int
     var end = sortedNumbers.size-1
     while(true) {
@@ -37,8 +22,7 @@ fun main() {
             b = sortedNumbers[i]
             i++
             if(b == max) {
-                println(a * b)
-                exitProcess(0)
+                return (a * b).toString()
             }
         }
         end--

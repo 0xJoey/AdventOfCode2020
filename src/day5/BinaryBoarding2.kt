@@ -1,12 +1,11 @@
 package day5
 
-import java.io.File
+import readFromFile
 
-fun main() {
-    val ids = File("./src/day5/in.txt")
-        .readLines()
+fun day5b(): String {
+    val ids = readFromFile("day5")
         .map{calcId(it)}
-    println(findMissing(ids))
+    return findMissing(ids).toString()
 }
 
 private fun calcId(str: String): Int {
