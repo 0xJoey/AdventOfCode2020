@@ -1,8 +1,6 @@
 package day7
 
 import readFromFile
-import java.io.File
-import java.util.*
 import kotlin.collections.HashMap
 
 private val allBags = HashMap<String, HashMap<String, Int>>()

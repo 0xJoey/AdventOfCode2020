@@ -1,7 +1,6 @@
 package day1
 
 import readFromFile
-import kotlin.system.exitProcess
 
 fun day1b(): String {
     val sortedNumbers = readFromFile("day1")
