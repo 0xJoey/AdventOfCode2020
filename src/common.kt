@@ -12,6 +12,7 @@ import day11.*
 import day12.*
 import day13.*
 import day14.*
+import day15.*
 import helpers.Companion.testSymbol
 import java.io.File
 
@@ -55,7 +56,7 @@ fun runTests() {
     runDay("day12", ::day12a, ::day12b)
     runDay("day13", ::day13a, ::day13b)
     runDay("day14", ::day14a, ::day14b)
-    //runDay("day15", ::day15a, ::day15b)
+    runDay("day15", ::day15a, ::day15b)
     //runDay("day16", ::day16a, ::day16b)
     //runDay("day17", ::day17a, ::day17b)
     //runDay("day18", ::day18a, ::day18b)
@@ -78,23 +79,26 @@ fun runDay(name: String, part1: () -> String, part2: () -> String) {
     val answers = readAnswers(name)
 
     val p1 = part1()
+    val p1time = roundTime(beginTotal)
     val p1correct = p1 == answers.first
-    println("Part 1: ${testSymbol(p1correct)}$p1 (${roundTime(beginTotal)})")
+    val beginPart = System.nanoTime()
+    val p2 = part2()
+    val p2time = roundTime(beginPart)
+    val totalTime = roundTime(beginTotal)
+
+    println("Part 1: ${testSymbol(p1correct)}$p1 ($p1time)")
     println()
     if(!p1correct) {
         System.err.println("Part 1 Incorrect, Expected: ${answers.first}, Received: $p1")
     }
-
-    val beginPart = System.nanoTime()
-    val p2 = part2()
     val p2correct = p2 == answers.second
-    println("Part 2: ${testSymbol(p2correct)}$p2 (${roundTime(beginPart)})")
+    println("Part 2: ${testSymbol(p2correct)}$p2 ($p2time)")
     println()
     if(!p2correct) {
         System.err.println("Part 2 Incorrect, Expected: ${answers.second}, Received: $p2")
     }
 
-    println("Total time: ${roundTime(beginTotal)}")
+    println("Total time: $totalTime")
     println()
 }
 
