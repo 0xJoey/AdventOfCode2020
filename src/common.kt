@@ -14,6 +14,7 @@ import day13.*
 import day14.*
 import day15.*
 import day16.*
+import day17.*
 import helpers.Companion.testSymbol
 import java.io.File
 
@@ -24,8 +25,6 @@ class helpers {
         }
     }
 }
-
-
 
 fun readFromFile(day: String): List<String> {
     return File("./src/$day/in.txt")
@@ -59,7 +58,7 @@ fun runTests() {
     runDay("day14", ::day14a, ::day14b)
     runDay("day15", ::day15a, ::day15b)
     runDay("day16", ::day16a, ::day16b)
-    //runDay("day17", ::day17a, ::day17b)
+    runDay("day17", ::day17a, ::day17b)
     //runDay("day18", ::day18a, ::day18b)
     //runDay("day19", ::day19a, ::day19b)
     //runDay("day20", ::day20a, ::day20b)

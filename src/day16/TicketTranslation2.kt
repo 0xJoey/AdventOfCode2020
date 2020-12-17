@@ -61,14 +61,12 @@ fun day16b(): String {
                 .map {
                     it[i]
                 }
-        }
-        .map {
-            it.reduceRight { v, acc ->
-                acc.intersect(v).toList()
-            }
+                .reduceRight { v, acc ->
+                    acc.intersect(v).toList()
+                }
         }
         .withIndex()
-        .sortedBy {(i, it) ->
+        .sortedBy {(_, it) ->
             it.size
         }
         .map { (i, it) ->
@@ -79,10 +77,7 @@ fun day16b(): String {
         .sortedBy { (i, _) ->
             i
         }
-        .map{ (_, it) ->
-            it
-        }
-        .toList()
+        .map(Pair<Int, String>::second)
 
     val answer = ticket
         .mapIndexed { i, v ->
