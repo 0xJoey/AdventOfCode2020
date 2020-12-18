@@ -15,6 +15,7 @@ import day14.*
 import day15.*
 import day16.*
 import day17.*
+import day18.*
 import helpers.Companion.testSymbol
 import java.io.File
 
@@ -59,7 +60,7 @@ fun runTests() {
     runDay("day15", ::day15a, ::day15b)
     runDay("day16", ::day16a, ::day16b)
     runDay("day17", ::day17a, ::day17b)
-    //runDay("day18", ::day18a, ::day18b)
+    runDay("day18", ::day18a, ::day18b)
     //runDay("day19", ::day19a, ::day19b)
     //runDay("day20", ::day20a, ::day20b)
     //runDay("day21", ::day21a, ::day21b)
