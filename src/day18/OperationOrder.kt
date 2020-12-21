@@ -42,7 +42,7 @@ private fun parse(input: String): Long {
         val value = when(op) {
             "+" -> left + right
             "*" -> left * right
-            else -> throw RuntimeException("Fuck")
+            else -> error("Something went wrong")
         }.toString()
 
         parts = listOf(value) + parts.subList(3, parts.size)
