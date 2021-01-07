@@ -1,149 +1,177 @@
 ## day1 ##
-Part 1: :heavy_check_mark:744475 (47.76ms)
+Part 1: :heavy_check_mark:744475 (1.131ms)
 
-Part 2: :heavy_check_mark:70276940 (4.99ms)
+Part 2: :heavy_check_mark:70276940 (1.478ms)
 
-Total time: 53.67ms
+Total time: 3.452ms
 
 ## day2 ##
-Part 1: :heavy_check_mark:564 (15.826ms)
+Part 1: :heavy_check_mark:564 (6.633ms)
 
-Part 2: :heavy_check_mark:325 (14.925ms)
+Part 2: :heavy_check_mark:325 (6.545ms)
 
-Total time: 30.802ms
+Total time: 13.234ms
 
 ## day3 ##
-Part 1: :heavy_check_mark:230 (5.811ms)
+Part 1: :heavy_check_mark:230 (2.624ms)
 
-Part 2: :heavy_check_mark:9533698720 (3.138ms)
+Part 2: :heavy_check_mark:9533698720 (1.814ms)
 
-Total time: 8.998ms
+Total time: 4.499ms
 
 ## day4 ##
-Part 1: :heavy_check_mark:219 (28.784ms)
+Part 1: :heavy_check_mark:219 (8.743ms)
 
-Part 2: :heavy_check_mark:127 (35.811ms)
+Part 2: :heavy_check_mark:127 (39.117ms)
 
-Total time: 64.973ms
+Total time: 47.923ms
 
 ## day5 ##
-Part 1: :heavy_check_mark:861 (3.53ms)
+Part 1: :heavy_check_mark:861 (10.011ms)
 
-Part 2: :heavy_check_mark:633 (13.82ms)
+Part 2: :heavy_check_mark:633 (12.033ms)
 
-Total time: 17.43ms
+Total time: 22.1ms
 
 ## day6 ##
-Part 1: :heavy_check_mark:6382 (85.423ms)
+Part 1: :heavy_check_mark:6382 (84.05ms)
 
-Part 2: :heavy_check_mark:3197 (19.835ms)
+Part 2: :heavy_check_mark:3197 (22.319ms)
 
-Total time: 105.303ms
+Total time: 106.431ms
 
 ## day7 ##
-Part 1: :heavy_check_mark:222 (48.75ms)
+Part 1: :heavy_check_mark:222 (29.002ms)
 
-Part 2: :heavy_check_mark:13264 (26.925ms)
+Part 2: :heavy_check_mark:13264 (0.276ms)
 
-Total time: 75.737ms
+Total time: 29.365ms
 
 ## day8 ##
-Part 1: :heavy_check_mark:2025 (4.135ms)
+Part 1: :heavy_check_mark:2025 (1.061ms)
 
-Part 2: :heavy_check_mark:2001 (7.261ms)
+Part 2: :heavy_check_mark:2001 (11.067ms)
 
-Total time: 11.447ms
+Total time: 12.181ms
 
 ## day9 ##
-Part 1: :heavy_check_mark:375054920 (9.46ms)
+Part 1: :heavy_check_mark:375054920 (21.079ms)
 
-Part 2: :heavy_check_mark:54142584 (1.403s)
+Part 2: :heavy_check_mark:54142584 (1.654s)
 
-Total time: 1.413s
+Total time: 1.675s
 
 ## day10 ##
-Part 1: :heavy_check_mark:2376 (2.321ms)
+Part 1: :heavy_check_mark:2376 (1.078ms)
 
-Part 2: :heavy_check_mark:129586085429248 (3.949ms)
+Part 2: :heavy_check_mark:129586085429248 (7.751ms)
 
-Total time: 6.315ms
+Total time: 8.876ms
 
 ## day11 ##
-Part 1: :heavy_check_mark:2164 (253.833ms)
+Part 1: :heavy_check_mark:2164 (236.352ms)
 
-Part 2: :heavy_check_mark:1974 (343.406ms)
+Part 2: :heavy_check_mark:1974 (365.645ms)
 
-Total time: 597.295ms
+Total time: 602.174ms
 
 ## day12 ##
-Part 1: :heavy_check_mark:2879 (1.833ms)
+Part 1: :heavy_check_mark:2879 (1.005ms)
 
-Part 2: :heavy_check_mark:178986 (1.629ms)
+Part 2: :heavy_check_mark:178986 (0.53ms)
 
-Total time: 3.498ms
+Total time: 1.567ms
 
 ## day13 ##
-Part 1: :heavy_check_mark:115 (1.11ms)
+Part 1: :heavy_check_mark:115 (0.922ms)
 
-Part 2: :heavy_check_mark:756261495958122 (4.557ms)
+Part 2: :heavy_check_mark:756261495958122 (4.179ms)
 
-Total time: 5.702ms
+Total time: 5.162ms
 
 ## day14 ##
-Part 1: :heavy_check_mark:9967721333886 (5.192ms)
+Part 1: :heavy_check_mark:9967721333886 (18.254ms)
 
-Part 2: :heavy_check_mark:4355897790573 (72.65ms)
+Part 2: :heavy_check_mark:4355897790573 (104.004ms)
 
-Total time: 77.893ms
+Total time: 122.333ms
 
 ## day15 ##
-Part 1: :heavy_check_mark:206 (3.232ms)
+Part 1: :heavy_check_mark:206 (0.591ms)
 
-Part 2: :heavy_check_mark:955 (3.825s)
+Part 2: :heavy_check_mark:955 (4.106s)
 
-Total time: 3.828s
+Total time: 4.106s
 
 ## day16 ##
-Part 1: :heavy_check_mark:23044 (35.006ms)
+Part 1: :heavy_check_mark:23044 (49.816ms)
 
-Part 2: :heavy_check_mark:3765150732757 (59.526ms)
+Part 2: :heavy_check_mark:3765150732757 (60.492ms)
 
-Total time: 94.588ms
+Total time: 110.36ms
 
 ## day17 ##
-Part 1: :heavy_check_mark:306 (81.154ms)
+Part 1: :heavy_check_mark:306 (79.803ms)
 
-Part 2: :heavy_check_mark:2572 (636.537ms)
+Part 2: :heavy_check_mark:2572 (612.25ms)
 
-Total time: 717.75ms
+Total time: 692.116ms
 
 ## day18 ##
-Part 1: :heavy_check_mark:12956356593940 (8.962ms)
+Part 1: :heavy_check_mark:12956356593940 (7.983ms)
 
-Part 2: :heavy_check_mark:94240043727614 (10.666ms)
+Part 2: :heavy_check_mark:94240043727614 (8.405ms)
 
-Total time: 19.691ms
+Total time: 16.443ms
 
 ## day19 ##
-Part 1: :heavy_check_mark:124 (153.392ms)
+Part 1: :heavy_check_mark:124 (56.53ms)
 
-Part 2: :heavy_check_mark:228 (181.62ms)
+Part 2: :heavy_check_mark:228 (268.046ms)
 
-Total time: 335.084ms
+Total time: 324.632ms
 
 ## day20 ##
-Part 1: :heavy_check_mark:14129524957217 (121.985ms)
+Part 1: :heavy_check_mark:14129524957217 (141.877ms)
 
-Part 2: :heavy_check_mark:1649 (64.47ms)
+Part 2: :heavy_check_mark:1649 (10.807ms)
 
-Total time: 186.51ms
+Total time: 152.73ms
 
 ## day21 ##
-Part 1: :heavy_check_mark:2428 (3.436ms)
+Part 1: :heavy_check_mark:2428 (1.044ms)
 
-Part 2: :heavy_check_mark:bjq,jznhvh,klplr,dtvhzt,sbzd,tlgjzx,ctmbr,kqms (5.517ms)
+Part 2: :heavy_check_mark:bjq,jznhvh,klplr,dtvhzt,sbzd,tlgjzx,ctmbr,kqms (2.026ms)
 
-Total time: 8.998ms
+Total time: 3.113ms
+
+## day22 ##
+Part 1: :heavy_check_mark:35370 (1.51ms)
+
+Part 2: :heavy_check_mark:36246 (552.683ms)
+
+Total time: 554.252ms
+
+## day23 ##
+Part 1: :heavy_check_mark:74698532 (0.879ms)
+
+Part 2: :heavy_check_mark:286194102744 (1.612s)
+
+Total time: 1.613s
+
+## day24 ##
+Part 1: :heavy_check_mark:307 (0.509ms)
+
+Part 2: :heavy_check_mark:3787 (1.886s)
+
+Total time: 1.887s
+
+## day25 ##
+Part 1: :heavy_check_mark:18608573 (14.727ms)
+
+Part 2: :heavy_check_mark:Free! (0.003ms)
+
+Total time: 14.774ms
 
 ## Summary ##
-All days total: 7.735s
+All days total: 12.462s
